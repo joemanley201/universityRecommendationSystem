@@ -8,7 +8,7 @@ Started Scraping data from edulix.com
 Scrape completed. Started cleaning process
 
 # Data Structure
-53,645 entries finally compiled
+53,645 entries finally compiled.
 Each entry has the following properties:
 - userName - username in edulix.com
 - major - Major in which the user pursued / is pursuing

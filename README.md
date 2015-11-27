@@ -37,5 +37,5 @@ Each entry has the following properties:
 - univName - University Name applied to
 - admit - Result of the application (0/1 - Reject/Admit)
 
-Files
+Files  
 [a relative link](scraper/getSingleUsersJSON.py)

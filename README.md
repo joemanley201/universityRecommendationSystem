@@ -36,3 +36,6 @@ Each entry has the following properties:
 - gmatV - GMAT Verbal Score
 - univName - University Name applied to
 - admit - Result of the application (0/1 - Reject/Admit)
+
+Files
+[a relative link](scraper/getSingleUsersJSON.py)

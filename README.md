@@ -1,13 +1,13 @@
 # universityRecommendationSystem
 Recommendation system for Graduate Level Studies in the United States. Implemented as a part of CSE 255 - Data Mining and Predictive Analysis
 
-# Nov 25, 2015
+### Nov 25, 2015
 Started Scraping data from edulix.com
 
-# Nov 26, 2015
+### Nov 26, 2015
 Scrape completed. Started cleaning process
 
-# Data Structure
+### Structure of scraped data
 53,645 entries finally compiled.  
 Each entry has the following properties:
 - userName - username in edulix.com

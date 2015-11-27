@@ -39,4 +39,6 @@ Each entry has the following properties:
 
 Files  
 -[scraper/getSingleUsersJSON.py](scraper/getSingleUsersJSON.py)  
-<p>hello</p>
+	get data for single userName, userProfileLinkURL given. Used this in cases when the scraper failed encountering unicode characters and python failed to read it.
+-[scraper/getSingleUsersJSON.py](scraper/getUniqueUsersFromEntireCollegeList.py)  
+	get unique users from the entire college vs user list. Used this list with profileLinkURL to scrape user data for individual users

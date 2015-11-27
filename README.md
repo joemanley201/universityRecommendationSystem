@@ -8,7 +8,7 @@ Started Scraping data from edulix.com
 Scrape completed. Started cleaning process
 
 # Data Structure
-53,645 entries finally compiled.
+53,645 entries finally compiled.  
 Each entry has the following properties:
 - userName - username in edulix.com
 - major - Major in which the user pursued / is pursuing
@@ -38,4 +38,4 @@ Each entry has the following properties:
 - admit - Result of the application (0/1 - Reject/Admit)
 
 Files  
-[a relative link](scraper/getSingleUsersJSON.py)
+-[scraper/getSingleUsersJSON.py](scraper/getSingleUsersJSON.py)

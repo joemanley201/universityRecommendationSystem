@@ -40,5 +40,15 @@ Each entry has the following properties:
 Files  
 -[scraper/getSingleUsersJSON.py](scraper/getSingleUsersJSON.py)  
 	get data for single userName, userProfileLinkURL given. Used this in cases when the scraper failed encountering unicode characters and python failed to read it.  
--[scraper/getSingleUsersJSON.py](scraper/getUniqueUsersFromEntireCollegeList.py)  
+-[scraper/getUniqueUsersFromEntireCollegeList.py](scraper/getUniqueUsersFromEntireCollegeList.py)  
 	get unique users from the entire college vs user list. Used this list with profileLinkURL to scrape user data for individual users
+-[scraper/getUserAdmitRejectListForEachUniversity.py](scraper/getUserAdmitRejectListForEachUniversity.py)  
+	get admit reject list with userName and userProfile link
+-[scraper/getUserAdmitRejectListForEachUniversitySingleFile.py](scraper/getUserAdmitRejectListForEachUniversitySingleFile.py)  
+	get admit reject list with userName and userProfile link as a single file for all universities
+-[scraper/getUserInfoFromUserList.py](scraper/getUserInfoFromUserList.py)  
+	get userInfo from edulix based on the uniqueUser list
+-[scraper/getUserProfileInfoVsUnivDetails.py](scraper/getUserProfileInfoVsUnivDetails.py)  
+	get final CSV for userProfile vs college name vs admit/reject
+-[scraper/ipython notebook scraper help.ipynb](scraper/ipython notebook scraper help.ipynb)  
+	ipython notebook used for figuring out the html structure for edulix.com pages

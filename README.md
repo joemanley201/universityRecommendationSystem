@@ -1,11 +1,7 @@
 # universityRecommendationSystem
-Recommendation system for Graduate Level Studies in the United States. Implemented as a part of CSE 255 - Data Mining and Predictive Analysis
+Implemented as a part of CSE 255 - Data Mining and Predictive Analysis
 
-### Nov 25, 2015
-Started Scraping data from edulix.com
-
-### Nov 26, 2015
-Scrape completed. Started cleaning process
+For an aspiring graduate student, choosing which universities to apply to is a conundrum. Often, the students wonder if their profile is good enough for a certain university. We addressed this issue by building a recommendation system based on various classification algorithms. Since data was not readily available, we scraped data Edulix.com, and a dataset containing profiles of students with admits/rejects to 45 different universities in USA was built. Based on this data set, various models were trained and universities were suggested such that it maximizes the chances of a student getting an admit from that university.
 
 ### Structure of scraped data
 53,645 entries finally compiled.  
@@ -36,19 +32,9 @@ Each entry has the following properties:
 - gmatV - GMAT Verbal Score
 - univName - University Name applied to
 - admit - Result of the application (0/1 - Reject/Admit)
+	
+### Nov 26, 2015
+Scrape completed. Started cleaning process
 
-Files  
--[scraper/getSingleUsersJSON.py](scraper/getSingleUsersJSON.py)  
-	get data for single userName, userProfileLinkURL given. Used this in cases when the scraper failed encountering unicode characters and python failed to read it.  
--[scraper/getUniqueUsersFromEntireCollegeList.py](scraper/getUniqueUsersFromEntireCollegeList.py)  
-	get unique users from the entire college vs user list. Used this list with profileLinkURL to scrape user data for individual users.  
--[scraper/getUserAdmitRejectListForEachUniversity.py](scraper/getUserAdmitRejectListForEachUniversity.py)  
-	get admit reject list with userName and userProfile link.  
--[scraper/getUserAdmitRejectListForEachUniversitySingleFile.py](scraper/getUserAdmitRejectListForEachUniversitySingleFile.py)  
-	get admit reject list with userName and userProfile link as a single file for all universities.  
--[scraper/getUserInfoFromUserList.py](scraper/getUserInfoFromUserList.py)  
-	get userInfo from edulix based on the uniqueUser list.  
--[scraper/getUserProfileInfoVsUnivDetails.py](scraper/getUserProfileInfoVsUnivDetails.py)  
-	get final CSV for userProfile vs college name vs admit/reject.  
--[scraper/ipython notebook scraper help.ipynb](scraper/ipython notebook scraper help.ipynb)  
-	ipython notebook used for figuring out the html structure for edulix.com pages.  
+### Nov 25, 2015
+Started Scraping data from edulix.com
